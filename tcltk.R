@@ -1,5 +1,4 @@
 
-
 library("tcltk")
 get.res<-function(){
   x<-system("wmic path Win32_VideoController get VideoModeDescription,CurrentVerticalResolution,CurrentHorizontalResolution /format:value",
